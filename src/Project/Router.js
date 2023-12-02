@@ -7,7 +7,6 @@ import Gallery from "./Gallery/Gallery";
 import Mobilehome from "./Mobile/Mobile";
 import Logins from "./Login/Login";
 import Signup from "./Signup/Signup";
-import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 const Rout=()=>{
 
