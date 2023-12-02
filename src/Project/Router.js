@@ -7,14 +7,13 @@ import Gallery from "./Gallery/Gallery";
 import Mobilehome from "./Mobile/Mobile";
 import Logins from "./Login/Login";
 import Signup from "./Signup/Signup";
-
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 
 const Rout=()=>{
 
     return(
 
-        <BrowserRouter>
-        
+        <BrowserRouter  basename={process.env.PUBLIC_URL}>
         <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path="/Component" element={<Component/>}></Route>
