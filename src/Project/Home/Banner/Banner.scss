@@ -1,0 +1,152 @@
+.chief{
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    // font-size: 18px;
+}
+
+.wel-back{
+	text-align: center;
+	margin-top: 70px;
+	// font-size: 35px;
+}
+
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 30px;
+
+	span{
+		font-weight: bold;
+		color: black;
+		font-size: 18px;
+	}
+}
+
+.position{
+	position: relative;
+}
+
+.absalute{
+	position: absolute !important;
+	top: 400px !important;
+	right:600px !important;
+}
+
+.round{
+	// width:950px;
+	height:65px;
+	border: 1px solid black;
+	border-radius: 50px;
+	margin-top: 30px;
+	display: inline-block;
+	line-height: 62px;
+	position: relative;
+	// display: flex;
+	// align-items: center;
+	// justify-content:space-between;
+	// padding: 20px 15px;
+
+	.align{
+		display:flex;
+		align-items: center;
+		// justify-content:center;
+	}
+
+
+	input,select{
+		border: none;
+		// font-size:17px;
+		font-weight: bold;
+		color:gray;
+	}
+
+	
+	.Input:focus{
+		border:none;
+		outline: none;
+	}
+
+	i{
+		color:#dc3545;
+		font-size: 17px;
+		font-weight: bold;
+		margin-right: 5px;
+	}
+
+	span,select{
+		font-size: 17px;
+		color: gray;
+		font-weight: bold;
+		padding:0px 10px;
+	}
+
+	.search-flex{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// .alignn{
+	// 	display:flex;
+	// 	align-items: center;
+	// 	justify-content:center;
+	// }
+
+
+	.search{
+		background-color: #dc3545;
+		display: inline-block;;
+		padding: 9px 13px;
+		border-radius: 30px;
+		position:absolute;
+		top:11px;
+		right:5px;
+		font-weight: bold;
+		color: white;
+
+		span{
+			margin-left: 10px;
+			color:white
+		}
+	}
+}
+
+.Budget option{
+	line-height: 30px;
+	color: gray;
+}
+
+ul{
+	padding: 0px;
+}
+
+.accord{
+	position: absolute;
+	top: 400px;
+	left:300px;
+}
+
+.accords{
+	position: absolute;
+	top: 420px;
+	left:70px;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type{
+	box-shadow: none;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+	box-shadow: none;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+	box-shadow: none;
+	border:none
+}
+}
+

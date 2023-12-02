@@ -1,0 +1,24 @@
+.signin{
+
+    .center{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  
+   
+    ::placeholder {
+      color: white;
+      opacity: 1;
+    }
+
+    input{
+      color: white;
+    }
+    
+      .container{
+          width: 95%;
+          margin: 0 auto;
+      }
+  }

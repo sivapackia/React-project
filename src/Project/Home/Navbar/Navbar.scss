@@ -1,0 +1,50 @@
+.navbar{
+	padding:15px 05px;
+
+	ul{
+		list-style-type:none;
+	}
+
+	a{
+		text-decoration: none;
+		color:black;
+
+    i{
+	    color:#d8232a;
+		margin-left:5px;		
+		font-size:15px;
+		}
+	}
+
+.newspan{
+    padding:3px 20px;
+    background-color: #ffc107!important;
+    font-weight: bold;
+    border-radius: 20px;
+    color:black;
+}
+
+.shift{	
+	
+	li{
+	border: 1px solid #00c1d4;
+	padding:5px 10px;
+	font-size:12px;
+	display:inline-block;
+	border-radius:20px;
+	height: 25px;
+	line-height:25px;
+
+	i{
+		font-size:12px;
+	}
+
+		span{
+			color:#d8232a;
+			margin-left: 10px;
+			font-weight: bold;
+		}
+	}
+}
+
+}

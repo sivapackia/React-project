@@ -1,0 +1,150 @@
+.component-banner{
+    
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h5{
+        text-align: start;
+    }
+}
+
+.flex-zero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    i{
+        margin-right: 10px;
+}
+}
+.area-flex{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 2px gray;
+    padding:10px;
+    margin-bottom: 15px;
+
+    div{
+        margin-bottom:5px;
+    }
+}
+
+.para-banner{
+    line-height:20px;
+}
+
+.call{
+    border: 1px solid red;
+    padding:8px 10px;
+    border-radius: 30px;
+    color:red;
+    margin-bottom: 15px;
+    // margin-top:30px;
+    width: 200px;
+    text-align: center;
+}
+
+.info{
+    border: 1px solid white;
+    padding:8px 10px;
+    border-radius: 20px;
+    color:white;
+    background-color:#c31f25;
+    margin-bottom: 15px;
+    width: 200px;
+    text-align: center;
+    // margin-top:30px;
+
+}
+
+.card{
+    box-shadow: 0px 0px 15px gray;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+.shadow{
+    padding: 10px;
+}
+
+.zero{
+    padding:5px 10px;
+    border: 1px solid rgb(201, 201, 233);
+    box-shadow: 0px 0px 15px gray;
+}
+}
+
+.header-component{
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    li{
+        list-style-type: none;
+    }
+    
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        flex-wrap: wrap;
+    
+        div{
+            margin-right: 10px;
+        }
+     
+    
+        .back-color{
+            background-color: white;
+            padding: 10px 25px;
+            border-radius: 20px;
+            display: flex;
+    
+            a{
+                margin-right: 10px;
+            }
+    
+            div{
+                margin-right: 10px;
+            }
+        }
+    
+        .chennai{
+            padding:0px 15px;
+            background-color:rgb(234, 173, 194);
+            border-radius: 15px;
+        }
+    
+        input{
+            border: none;
+            margin-left: 10px;
+        }
+    
+        input:focus{
+            outline:none;
+           }
+    }
+    }

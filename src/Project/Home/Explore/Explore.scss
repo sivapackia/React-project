@@ -1,0 +1,57 @@
+.Explore{
+    margin:20px 0px;
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
+.margin-explore{
+    // margin-left:20px; 
+    box-shadow: 0px 0px 5px gray;
+}
+
+.explore-img{
+    position: relative;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+a{
+text-decoration: none;
+}
+
+ul{
+    padding: 0px!important;
+}
+
+li{
+	list-style-type: none;
+}
+
+.img{
+    position: absolute; 
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    top:-32px;
+    left:14px; 
+
+}
+
+.sale{
+    padding:20px 10px;
+    background-color:#c3ebf099;
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#dc3545;
+}
+
+}

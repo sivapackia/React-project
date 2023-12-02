@@ -1,0 +1,46 @@
+.Property{
+    margin-top:40px;
+    margin-bottom:40px;
+    box-sizing: 0px 0px 15px gray;
+
+    
+
+.flexproperty{
+    // background-color: #fff8e2;
+    // padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+ 
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.free{
+    background-color: #ffc72c;
+    padding:15px 25px;
+    border-radius: 30px;
+    display:inline-block;
+
+    .free-span{
+        background-color: #fff8e2;
+        padding:5px 15px;
+        border-radius: 20px;
+    }
+}
+.freee{
+    background-color: #ffc72c;
+    padding:5px 10px;
+    border-radius: 30px;
+    display:inline-block;
+
+    .freee-span{
+        background-color: #fff8e2;
+        padding:3px 6px;
+        border-radius: 20px;
+    }
+}
+}
